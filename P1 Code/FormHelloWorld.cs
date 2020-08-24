@@ -10,11 +10,21 @@ using System.Windows.Forms;
 
 namespace P1_Code
 {
-    public partial class Form1 : Form
+    public partial class FormHelloWorld : Form
     {
-        public Form1()
+        public FormHelloWorld()
         {
             InitializeComponent();
+        }
+
+        private void FormHelloWorld_Load(object sender, EventArgs e)
+        {
+            CenterToScreen();
+        }
+
+        private void ClickMe_Click(object sender, EventArgs e)
+        {
+            Close();
         }
     }
 }
