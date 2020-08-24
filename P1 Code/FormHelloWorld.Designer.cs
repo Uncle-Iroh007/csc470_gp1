@@ -33,23 +33,25 @@
             // 
             // ClickMe
             // 
-            this.ClickMe.Location = new System.Drawing.Point(246, 294);
+            this.ClickMe.Location = new System.Drawing.Point(296, 243);
+            this.ClickMe.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.ClickMe.Name = "ClickMe";
-            this.ClickMe.Size = new System.Drawing.Size(232, 69);
+            this.ClickMe.Size = new System.Drawing.Size(99, 36);
             this.ClickMe.TabIndex = 0;
-            this.ClickMe.Text = "ClickMe";
+            this.ClickMe.Text = "Exit";
             this.ClickMe.UseVisualStyleBackColor = true;
             this.ClickMe.Click += new System.EventHandler(this.ClickMe_Click);
             // 
             // FormHelloWorld
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ControlLightLight;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(439, 317);
             this.Controls.Add(this.ClickMe);
+            this.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.Name = "FormHelloWorld";
-            this.Text = "FormHelloWorld";
+            this.Text = "CSC 470 - P1";
             this.Load += new System.EventHandler(this.FormHelloWorld_Load);
             this.ResumeLayout(false);
 
